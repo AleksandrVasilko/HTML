@@ -299,7 +299,7 @@ body {
     line-height: 28px;
     font-weight: 400;
     font-weight: 400;
-    background: rgb(251, 251, 252);
+    background: inherit;
     border: none;
     cursor: pointer;
 }
@@ -314,6 +314,70 @@ body {
     font-weight: 700;
     padding-bottom: 7px;
     border-bottom: 4px solid #19191C;
+}
+
+.find-program {
+    padding: 168px 0 168px 0;
+    background: #DEEFE4;
+}
+
+.find-program__text {
+    width: 50%;
+}
+
+.find-program__box {
+    display: flex;
+}
+
+.find-program__title {
+    font-size: 58px;
+    line-height: 70px;
+    font-weight: 700;
+    color: #19191C;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 28px;
+}
+
+.find-program__discription {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #19191C;
+    padding: 0;
+    margin: 0;
+}
+
+.find-program__input {
+    width: 100%;
+    border: none;
+    background: inherit;
+    border-bottom: 2px solid #19191C;
+    padding-top: 44px;
+   
+}
+
+.find-program__input:focus {
+    outline: none;
+}
+
+.find-program__input:focus {
+    outline: none;
+}
+
+.find-program__input::placeholder {
+    color: #19191C;
+}
+
+.find-program__button {
+    margin-top: 70px;
+    background: #19191C;
+    color: #EFEFF2;
+    padding: 12px 37px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
 }
 
 .footer {
