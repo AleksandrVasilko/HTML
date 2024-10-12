@@ -76,7 +76,7 @@ body {
 .offer {
     display: flex;
     justify-content: space-between;
-    background: url(../img/student.png) 140% 120% no-repeat, url(../img/rectangle-background.png) 100% 100% no-repeat, url(../img/ellipse-background_2.png) 120% 40% no-repeat;
+    background: url(../img/student.png) 125% 120% no-repeat, url(../img/rectangle-background.png) 100% 100% no-repeat, url(../img/ellipse-background_2.png) 120% 40% no-repeat;
 }
 
 .offer__holder {
@@ -165,27 +165,27 @@ body {
 
 .offer__illustrator {
     top: 137px;
-    right: 223px;
+    right: 270px;
 }
 
 .offer__animator {
     top:220px;
-    right: 462px;
+    right: 510px;
 }
 
 .offer__programmer {
     top: 412px;
-    right: 570px;
+    right: 620px;
 }
 
 .offer__designer{
     top: 575px;
-    right: 719px;
+    right: 770px;
 }
 
 .offer__photographer {
     top: 730px;
-    right: 588px;
+    right: 640px;
 }
 
 .learn {
@@ -462,4 +462,103 @@ body {
     padding: 0;
     margin: 0;
     padding-left: 28px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 730px;
+        padding: 0 10px;
+    }
+
+    .header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .btn-box {
+        margin-top: 15px;
+    }
+
+    .offer__holder{
+        width: 100%;
+    }
+
+    .offer__title {
+        font-size: 48px;
+        line-height: 50px;
+        text-align: center;
+    }
+    
+    .offer {
+        display: flex;
+        justify-content: space-between;
+        background: url(../img/student.png) 80% 230% no-repeat, url(../img/rectangle-background.png) 100% 100% no-repeat, url(../img/ellipse-background_2.png) 120% 40% no-repeat;
+    }
+    
+    .offer__marketer {
+        top: 310px;
+        right: 10px;
+    }
+
+    .offer__illustrator {
+        top: 310px;
+        right: 360px;
+    }
+
+    .offer__animator {
+        top: 470px;
+        right: 565px;
+    }
+
+    .offer__programmer {
+        top: 700px;
+        right: 534px;
+    }
+
+    .offer__designer {
+        top: 476px;
+        right: 10px;
+    }
+
+    .offer__photographer {
+        top: 810px;
+        right: 465px;
+    }  
+
+    .learn {
+        padding: 100px 0;
+    }
+
+    .learn-box {
+        flex-wrap: wrap;
+        gap: 0;
+        justify-content: center;
+    }
+
+    .discover {
+        padding: 100px 0;
+    }
+
+    .discover__cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .find-program {
+        padding: 100px 0;
+    }
+
+    .find-program__text {
+        width: 80%;
+    }
+
+    .find-program__title {
+        font-size: 48px;
+        line-height: 50px;
+    }
+
+    .footer__holder {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
